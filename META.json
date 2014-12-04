@@ -1,0 +1,43 @@
+{
+   "name": "sliding_sum_agg",
+   "abstract": "Provides sliding_sum() aggregate functions.",
+   "version": "0.0.1",
+   "maintainer": [
+      "Pavel Rosputko <pavel.rosputko@gmail.com>"
+   ],
+   "release_status": "stable",
+   "license": "postgresql",
+   "prereqs": {
+       "build": {
+           "requires": {
+               "PostgreSQL": "9.0.0"
+           }
+       }
+   },
+   "provides": {
+      "sliding_sum_agg": {
+         "file": "sql/sliding_sum_agg.sql",
+         "docfile": "doc/sliding_sum_agg.md",
+         "version": "0.0.1"
+      }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "http://github.com/pavel-rosputko/sliding-sum-agg/issues"
+      },
+      "repository": {
+        "url":  "git://github.com/pavel-rosputko/sliding-sum-agg.git",
+        "web":  "http://github.com/pavel-rosputko/sliding-sum-agg/",
+        "type": "git"
+      }
+   },
+   "generated_by": "Pavel Rosputko",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "sliding sum",
+      "aggregate function"
+   ]
+}

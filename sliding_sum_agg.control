@@ -1,0 +1,5 @@
+# sliding_sum extension
+comment = 'sliding_sum() aggregate functions'
+default_version = '0.0.1'
+module_pathname = '$libdir/sliding_sum_agg'
+relocatable = true
